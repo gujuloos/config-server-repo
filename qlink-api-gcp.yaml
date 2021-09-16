@@ -1,6 +1,6 @@
 qlink-api:
   config-server:
-    address: 35.240.37.186:8888
+    address: 10.132.0.7:8888
   db:
     address: 10.132.0.4:5432
 
