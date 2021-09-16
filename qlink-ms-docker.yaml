@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: broker:29092
+    producer:
+      bootstrap-servers: broker:29092
+schema:
+  registry:
+    url: http://host.docker.internal:8081
+endpoint:
+  qlink: http://host.docker.internal:9080
