@@ -1,0 +1,5 @@
+kafka:
+  retry-attempts: 5
+  topic-ack-nack: acknowledgements
+  backoff-delay: 1000
+  multiplier: 2.0
